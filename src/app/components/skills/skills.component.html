@@ -1,0 +1,32 @@
+          <!--===== SKILLS =====-->
+          <section class="about section " id="skills">
+            <h2 class="section-title">Professional Skills</h2>
+<!-- <div *ngFor="let skill of mySkills">
+{{skill.name}}:{{skill.proficiency}}
+ </div> -->
+            <div class="about__container bd-grid" style="margin-left:400px;">
+                    <div class="skills__data">
+                        <div  class="skills__names">
+                            <!-- <i class='bx bxl-html5 skills__icon'></i> -->
+                             <!-- {{skill.name}}  -->
+                            <span class="skills__name"></span>
+                       
+                        </div>
+                        <div *ngFor="let skill of mySkills">
+                            <div  class="skills__data">
+                                {{skill.name}}
+                                <div class="skills__names">
+                                    <i class='bx bxl-css3 skills__icon'></i>
+                                    <span class="skills__name"></span>
+                                </div>
+                                <div class="skills__bar skills__css"> 
+                                </div>
+                                <div>
+                                    <span class="skills__percentage"></span>
+                                </div>
+                            </div>  
+                        </div>
+                   
+                    </div>
+            </div>
+        </section>

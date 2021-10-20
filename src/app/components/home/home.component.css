@@ -1,0 +1,21 @@
+
+  .home{
+    height: 100vh;
+  }
+  .home__data{
+    align-self: flex-end;
+  }
+  .home__social{
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+  .home__social-icon{
+    margin-bottom: 0;
+    margin-right: var(--mb-4);
+  }
+  .home__img{
+    width: 457px;
+    bottom: 15%;
+  }
